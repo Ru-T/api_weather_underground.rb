@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './condition.rb'
 require './ten_day_forecast.rb'
-#require './sun.rb'
+require './sun.rb'
 require 'json'
 
 class Condition
@@ -42,12 +42,9 @@ class AstronomyTest < Minitest::Test
     assert_equal "Cloudy skies early, followed by partial clearing. High near 80F. Winds NE at 5 to 10 mph.", Forecast.new("27701").forecast_text_all[9]
   end
 
-  def test_sunrise_time
-
+  def test_sunrise_sunset_time
+    assert_equal "6:07 PM PDT on September 21, 2015", Sun.new("94101").sunrise_sunset_time(1)
   end
 
-  def test_sunset_time
-
-  end
 
 end
