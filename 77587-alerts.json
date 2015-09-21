@@ -1,0 +1,44 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "213",
+	"alerts": [
+		{
+		"type": "SPE",
+		"description": "Air Quality Alert",
+		"date": "1:45 PM CDT on September 21, 2015",
+		"date_epoch": "1442861100",
+		"expires": "7:00 PM CDT on September 21, 2015",
+		"expires_epoch": "1442880000",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"message": "\u000A...Ozone action day Tuesday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued an\u000Aozone action day for the Houston...Galveston...and Brazoria areas for\u000ATuesday September 22, 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Tuesday. You can help prevent ozone\u000Apollution by sharing a ride...walking or riding a bicyle...taking\u000Ayour lunch to work...avoiding drive through lanes...conserving\u000Aenergy and keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000Atake care of texas: (www.Takecareoftexas.Org)\u000AHouston-Galveston area Council air quality programs:\u000A(www.H-gac.Com/taq/airquality/default.Aspx)\u000A\u000A\u000A145 PM CDT Mon Sep 21 2015\u000A\u000A...Ozone action day Tuesday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued an\u000Aozone action day for the Houston...Galveston...and Brazoria areas for\u000ATuesday September 22, 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Tuesday. You can help prevent ozone\u000Apollution by sharing a ride...walking or riding a bicyle...taking\u000Ayour lunch to work...avoiding drive through lanes...conserving\u000Aenergy and keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000Atake care of texas: (www.Takecareoftexas.Org)\u000AHouston-Galveston area Council air quality programs:\u000A(www.H-gac.Com/taq/airquality/default.Aspx)\u000A\u000A\u000A\u000A145 PM CDT Mon Sep 21 2015\u000A\u000A...Ozone action day Tuesday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued an\u000Aozone action day for the Houston...Galveston...and Brazoria areas for\u000ATuesday September 22, 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Tuesday. You can help prevent ozone\u000Apollution by sharing a ride...walking or riding a bicyle...taking\u000Ayour lunch to work...avoiding drive through lanes...conserving\u000Aenergy and keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000Atake care of texas: (www.Takecareoftexas.Org)\u000AHouston-Galveston area Council air quality programs:\u000A(www.H-gac.Com/taq/airquality/default.Aspx)\u000A\u000A\u000A\u000A206 PM CDT sun Sep 20 2015\u000A\u000A...Ozone action day for Monday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued\u000Aan ozone action day for the Houston...Galveston...and Brazoria\u000Aareas for Monday September 21 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Monday. You can help prevent ozone pollution\u000Aby sharing a ride...walking...riding a bicycle...taking your\u000Alunch to work...avoiding drive through lanes...conserving energy\u000Aand keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000A\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000A\u000ATake care of texas: (www.Takecareoftexas.Org)\u000A\u000A\u000A\u000A\u000A206 PM CDT sun Sep 20 2015\u000A\u000A...Ozone action day for Monday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued\u000Aan ozone action day for the Houston...Galveston...and Brazoria\u000Aareas for Monday September 21 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Monday. You can help prevent ozone pollution\u000Aby sharing a ride...walking...riding a bicycle...taking your\u000Alunch to work...avoiding drive through lanes...conserving energy\u000Aand keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000A\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000A\u000ATake care of texas: (www.Takecareoftexas.Org)\u000A\u000A\u000A\u000A206 PM CDT sun Sep 20 2015\u000A\u000A...Ozone action day for Monday...\u000A\u000AThe Texas commission on environmental quality (tceq)...has issued\u000Aan ozone action day for the Houston...Galveston...and Brazoria\u000Aareas for Monday September 21 2015.\u000A\u000AAtmospheric conditions are expected to be favorable for producing \u000Ahigh levels of ozone pollution in the Houston...Galveston and \u000Asurrounding areas on Monday. You can help prevent ozone pollution\u000Aby sharing a ride...walking...riding a bicycle...taking your\u000Alunch to work...avoiding drive through lanes...conserving energy\u000Aand keeping your vehicle properly tuned.\u000A\u000AFor more information on ozone:\u000A\u000AOzone: the facts (www.Tceq.Texas.Gov/goto/ozonefacts)\u000A\u000AEPA air now:\u000A(www.Airnow.Gov/index.Cfm?Action=airnow.Local_state&stateid=45&tab=0)\u000A\u000ATake care of texas: (www.Takecareoftexas.Org)\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "AQ",
+		"significance": "L",
+		"ZONES": [
+		{
+		"state":"TX",
+		"ZONE":"213"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"237"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"238"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}

@@ -3,6 +3,7 @@ require 'byebug'
 require './condition.rb'
 require './ten_day_forecast.rb'
 require './sun.rb'
+require './alert.rb'
 
 puts "Enter a zip code:"
 zip_code = gets.chomp

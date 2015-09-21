@@ -27,6 +27,13 @@ class Sun
   end
 end
 
+class Alert
+  private def get_response
+  file = File.open('77587-alerts.json')
+  JSON.load(file)
+  end
+end
+
 class AstronomyTest < Minitest::Test
 
   def test_current_weather
@@ -54,8 +61,7 @@ class AstronomyTest < Minitest::Test
   end
 
   def test_current_alerts
-    assert_equal "alerts", Alert.new("77587").current_alert
+    assert_equal "SPE", Alert.new("77587").current_alert
   end
-
 
 end
