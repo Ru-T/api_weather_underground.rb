@@ -13,11 +13,12 @@ class Forecast
   end
 
   def forecast_text_all
-    # array = @response["forecast"]["txt_forecast"]["forecastday"]
-    # array.each {|item| item["fcttext"]}
     forecast = []
     (0..18).step(2) {|period| forecast << forecast_text(period)}
     forecast
+    # forecast = {}
+    # (0..18).step(2) {|period| forecast[period] = forecast_text(period)}
+    # forecast
   end
 
   private def get_response
@@ -26,7 +27,3 @@ class Forecast
   end
 
 end
-
-# puts "Enter a zip code:"
-# api2 = Forecast.new(gets.chomp)
-# puts "#{api2.forecast_text_all}"
