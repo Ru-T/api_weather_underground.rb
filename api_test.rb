@@ -15,7 +15,7 @@ end
 
 class Forecast
   private def get_response
-    file = File.open('27701-forecast.json') 
+    file = File.open('27701-forecast.json')
     JSON.load(file)
   end
 end
@@ -51,6 +51,10 @@ class AstronomyTest < Minitest::Test
 
   def test_sunset_time
     assert_equal "19:14 PM", Sun.new("27701").sunset_time
+  end
+
+  def test_current_alerts
+    assert_equal "alerts", Alert.new("77587").current_alert
   end
 
 
