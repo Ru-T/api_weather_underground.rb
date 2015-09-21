@@ -1,0 +1,837 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "tide": 1
+  }
+	}
+		,
+	"tide": {
+		"tideInfo": [
+		{
+		"tideSite":"North Point, Pier 41, San Francisco, San Francisco Bay, California",
+		"lat":"37.81",
+		"lon":"-122.413",
+		"units":"feet",
+		"type":"tide",
+		"tzname":"America/Los_Angeles"
+		}
+		],
+		"tideSummary": [
+		{
+		"date": {
+  "pretty": "2:27 PM PDT on September 21, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "21",
+  "hour": "14",
+  "min": "27",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442870846"
+  },
+  "utcdate": {
+  "pretty": "9:27 PM GMT on September 21, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "21",
+  "hour": "21",
+  "min": "27",
+  "tzname": "UTC",
+		"epoch":"1442870846"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "6:07 PM PDT on September 21, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "21",
+  "hour": "18",
+  "min": "07",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442884038"
+  },
+  "utcdate": {
+  "pretty": "1:07 AM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "01",
+  "min": "07",
+  "tzname": "UTC",
+		"epoch":"1442884038"
+  },
+		"data": {
+		"height":"5.49 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "7:08 PM PDT on September 21, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "21",
+  "hour": "19",
+  "min": "08",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442887700"
+  },
+  "utcdate": {
+  "pretty": "2:08 AM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "02",
+  "min": "08",
+  "tzname": "UTC",
+		"epoch":"1442887700"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "12:50 AM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "00",
+  "min": "50",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442908207"
+  },
+  "utcdate": {
+  "pretty": "7:50 AM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "07",
+  "min": "50",
+  "tzname": "UTC",
+		"epoch":"1442908207"
+  },
+		"data": {
+		"height":"0.69 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "12:52 AM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "00",
+  "min": "52",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442908334"
+  },
+  "utcdate": {
+  "pretty": "7:52 AM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "07",
+  "min": "52",
+  "tzname": "UTC",
+		"epoch":"1442908334"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "6:57 AM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "06",
+  "min": "57",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442930239"
+  },
+  "utcdate": {
+  "pretty": "1:57 PM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "13",
+  "min": "57",
+  "tzname": "UTC",
+		"epoch":"1442930239"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "8:21 AM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "08",
+  "min": "21",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442935289"
+  },
+  "utcdate": {
+  "pretty": "3:21 PM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "15",
+  "min": "21",
+  "tzname": "UTC",
+		"epoch":"1442935289"
+  },
+		"data": {
+		"height":"4.55 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "1:15 PM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "13",
+  "min": "15",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442952912"
+  },
+  "utcdate": {
+  "pretty": "8:15 PM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "20",
+  "min": "15",
+  "tzname": "UTC",
+		"epoch":"1442952912"
+  },
+		"data": {
+		"height":"2.99 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "3:18 PM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "15",
+  "min": "18",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442960282"
+  },
+  "utcdate": {
+  "pretty": "10:18 PM GMT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "22",
+  "min": "18",
+  "tzname": "UTC",
+		"epoch":"1442960282"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "7:06 PM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "19",
+  "min": "06",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442974010"
+  },
+  "utcdate": {
+  "pretty": "2:06 AM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "02",
+  "min": "06",
+  "tzname": "UTC",
+		"epoch":"1442974010"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "7:13 PM PDT on September 22, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "22",
+  "hour": "19",
+  "min": "13",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442974429"
+  },
+  "utcdate": {
+  "pretty": "2:13 AM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "02",
+  "min": "13",
+  "tzname": "UTC",
+		"epoch":"1442974429"
+  },
+		"data": {
+		"height":"5.62 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "1:51 AM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "01",
+  "min": "51",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442998278"
+  },
+  "utcdate": {
+  "pretty": "8:51 AM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "08",
+  "min": "51",
+  "tzname": "UTC",
+		"epoch":"1442998278"
+  },
+		"data": {
+		"height":"0.45 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "1:51 AM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "01",
+  "min": "51",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1442998305"
+  },
+  "utcdate": {
+  "pretty": "8:51 AM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "08",
+  "min": "51",
+  "tzname": "UTC",
+		"epoch":"1442998305"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "6:58 AM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "06",
+  "min": "58",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443016691"
+  },
+  "utcdate": {
+  "pretty": "1:58 PM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "13",
+  "min": "58",
+  "tzname": "UTC",
+		"epoch":"1443016691"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "9:12 AM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "09",
+  "min": "12",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443024765"
+  },
+  "utcdate": {
+  "pretty": "4:12 PM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "16",
+  "min": "12",
+  "tzname": "UTC",
+		"epoch":"1443024765"
+  },
+		"data": {
+		"height":"4.89 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "2:16 PM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "14",
+  "min": "16",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443043001"
+  },
+  "utcdate": {
+  "pretty": "9:16 PM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "21",
+  "min": "16",
+  "tzname": "UTC",
+		"epoch":"1443043001"
+  },
+		"data": {
+		"height":"2.65 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "4:06 PM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "16",
+  "min": "06",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443049564"
+  },
+  "utcdate": {
+  "pretty": "11:06 PM GMT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "23",
+  "min": "06",
+  "tzname": "UTC",
+		"epoch":"1443049564"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "7:05 PM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "19",
+  "min": "05",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443060316"
+  },
+  "utcdate": {
+  "pretty": "2:05 AM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "02",
+  "min": "05",
+  "tzname": "UTC",
+		"epoch":"1443060316"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "8:19 PM PDT on September 23, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "23",
+  "hour": "20",
+  "min": "19",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443064747"
+  },
+  "utcdate": {
+  "pretty": "3:19 AM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "03",
+  "min": "19",
+  "tzname": "UTC",
+		"epoch":"1443064747"
+  },
+		"data": {
+		"height":"5.84 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "2:46 AM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "02",
+  "min": "46",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443087964"
+  },
+  "utcdate": {
+  "pretty": "9:46 AM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "09",
+  "min": "46",
+  "tzname": "UTC",
+		"epoch":"1443087964"
+  },
+		"data": {
+		"height":"0.21 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "2:55 AM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "02",
+  "min": "55",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443088559"
+  },
+  "utcdate": {
+  "pretty": "9:55 AM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "09",
+  "min": "55",
+  "tzname": "UTC",
+		"epoch":"1443088559"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "6:59 AM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "06",
+  "min": "59",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443103143"
+  },
+  "utcdate": {
+  "pretty": "1:59 PM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "13",
+  "min": "59",
+  "tzname": "UTC",
+		"epoch":"1443103143"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "9:55 AM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "09",
+  "min": "55",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443113739"
+  },
+  "utcdate": {
+  "pretty": "4:55 PM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "16",
+  "min": "55",
+  "tzname": "UTC",
+		"epoch":"1443113739"
+  },
+		"data": {
+		"height":"5.26 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "3:10 PM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "15",
+  "min": "10",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443132608"
+  },
+  "utcdate": {
+  "pretty": "10:10 PM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "22",
+  "min": "10",
+  "tzname": "UTC",
+		"epoch":"1443132608"
+  },
+		"data": {
+		"height":"2.17 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "4:51 PM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "16",
+  "min": "51",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443138675"
+  },
+  "utcdate": {
+  "pretty": "11:51 PM GMT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "23",
+  "min": "51",
+  "tzname": "UTC",
+		"epoch":"1443138675"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "7:03 PM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "19",
+  "min": "03",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443146622"
+  },
+  "utcdate": {
+  "pretty": "2:03 AM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "02",
+  "min": "03",
+  "tzname": "UTC",
+		"epoch":"1443146622"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "9:20 PM PDT on September 24, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "24",
+  "hour": "21",
+  "min": "20",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443154803"
+  },
+  "utcdate": {
+  "pretty": "4:20 AM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "04",
+  "min": "20",
+  "tzname": "UTC",
+		"epoch":"1443154803"
+  },
+		"data": {
+		"height":"6.09 ft",
+		"type":"High Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "3:35 AM PDT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "03",
+  "min": "35",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443177307"
+  },
+  "utcdate": {
+  "pretty": "10:35 AM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "10",
+  "min": "35",
+  "tzname": "UTC",
+		"epoch":"1443177307"
+  },
+		"data": {
+		"height":"0.04 ft",
+		"type":"Low Tide"
+		}
+		},
+		{
+		"date": {
+  "pretty": "4:03 AM PDT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "04",
+  "min": "03",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443179035"
+  },
+  "utcdate": {
+  "pretty": "11:03 AM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "11",
+  "min": "03",
+  "tzname": "UTC",
+		"epoch":"1443179035"
+  },
+		"data": {
+		"height":"",
+		"type":"Moonset"
+		}
+		},
+		{
+		"date": {
+  "pretty": "6:59 AM PDT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "06",
+  "min": "59",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443189595"
+  },
+  "utcdate": {
+  "pretty": "1:59 PM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "13",
+  "min": "59",
+  "tzname": "UTC",
+		"epoch":"1443189595"
+  },
+		"data": {
+		"height":"",
+		"type":"Sunrise"
+		}
+		},
+		{
+		"date": {
+  "pretty": "10:34 AM PDT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "10",
+  "min": "34",
+  "tzname": "America/Los_Angeles",
+		"epoch":"1443202485"
+  },
+  "utcdate": {
+  "pretty": "5:34 PM GMT on September 25, 2015",
+  "year": "2015",
+  "mon": "09",
+  "mday": "25",
+  "hour": "17",
+  "min": "34",
+  "tzname": "UTC",
+		"epoch":"1443202485"
+  },
+		"data": {
+		"height":"5.64 ft",
+		"type":"High Tide"
+		}
+		}
+		],
+		"tideSummaryStats": [
+		{
+  "maxheight":6.090000,
+  "minheight":0.000000
+		}
+  ]
+	}
+}

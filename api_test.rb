@@ -42,4 +42,12 @@ class AstronomyTest < Minitest::Test
     assert_equal "Cloudy skies early, followed by partial clearing. High near 80F. Winds NE at 5 to 10 mph.", Forecast.new("27701").forecast_text_all[9]
   end
 
+  def test_sunrise_time
+
+  end
+
+  def test_sunset_time
+
+  end
+
 end

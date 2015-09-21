@@ -12,6 +12,7 @@ class Forecast
     @response["forecast"]["txt_forecast"]["forecastday"][period]["fcttext"]
   end
 
+# TO DO: Rewrite the below to show each item in the array on a different line.
   def forecast_text_all
     forecast = []
     (0..18).step(2) {|period| forecast << forecast_text(period)}
