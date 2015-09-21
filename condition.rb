@@ -13,7 +13,7 @@ class Condition
   end
 
   def temperature
-    @response["current_observation"]["temp_f"]
+    @response["current_observation"]["temp_f"].to_i
   end
 
   def humidity
