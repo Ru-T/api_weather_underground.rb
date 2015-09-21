@@ -15,7 +15,7 @@ class Forecast
   def forecast_text_all
     # array = @response["forecast"]["txt_forecast"]["forecastday"]
     # array.each {|item| item["fcttext"]}
-    forecast = ""
+    forecast = []
     (0..18).step(2) {|period| forecast << forecast_text(period)}
     forecast
   end

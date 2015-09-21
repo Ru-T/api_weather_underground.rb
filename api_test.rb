@@ -2,6 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './condition.rb'
 require './ten_day_forecast.rb'
+require './sun.rb'
 require 'json'
 
 class Condition
@@ -37,7 +38,8 @@ class AstronomyTest < Minitest::Test
   end
 
   def test_ten_day_forecast_text
-    assert_equal "Overcast with rain showers at times. Thunder possible. High near 75F. Winds NE at 5 to 10 mph. Chance of rain 40%.Cloudy early with partial sunshine expected late. Slight chance of a rain shower. High 78F. Winds NNE at 10 to 15 mph.Mostly sunny skies. High near 80F. Winds NNE at 10 to 15 mph.Overcast with rain showers at times. High 78F. Winds NNE at 10 to 20 mph. Chance of rain 60%.Rain likely. High 76F. Winds NE at 10 to 15 mph. Chance of rain 90%. Rainfall near a quarter of an inch.Rain showers in the morning becoming more intermittent in the afternoon. High 74F. Winds NE at 10 to 15 mph. Chance of rain 60%.Partly cloudy skies during the morning hours will become overcast in the afternoon. High 74F. Winds NE at 10 to 15 mph.Cloudy with periods of rain. High 74F. Winds NE at 10 to 15 mph. Chance of rain 70%. Rainfall around a half an inch.Rain showers early with overcast skies later in the day. High 77F. Winds NE at 5 to 10 mph. Chance of rain 40%.Cloudy skies early, followed by partial clearing. High near 80F. Winds NE at 5 to 10 mph.", Forecast.new("27701").forecast_text_all
+    assert_equal "Overcast with rain showers at times. Thunder possible. High near 75F. Winds NE at 5 to 10 mph. Chance of rain 40%.", Forecast.new("27701").forecast_text_all[0]
+    assert_equal "Cloudy skies early, followed by partial clearing. High near 80F. Winds NE at 5 to 10 mph.", Forecast.new("27701").forecast_text_all[9]
   end
 
 end
