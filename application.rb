@@ -14,11 +14,14 @@ puts "The current relative humidity is #{api.humidity}."
 puts ""
 
 api2 = Forecast.new(zip_code)
-puts "The weather over the next ten days is #{api2.forecast_text_all}."
+puts "The weather over the next ten days is:"
+puts "#{api2.forecast_text_all}"
 puts ""
 
 api3 = Sun.new(zip_code)
-puts "The sunset tomorrow is at #{api3.sunrise_sunset_time(1)}."
+puts "The sunrise is at #{api3.sunrise_time}."
+puts "The sunset is at #{api3.sunset_time}."
+puts ""
 
 api4 = Alert.new(zip_code)
 puts "The current weather alert is #{api4.current_alert}."

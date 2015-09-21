@@ -15,7 +15,14 @@ end
 
 class Forecast
   private def get_response
-    file = File.open('27701-forecast.json') #File.read and below JSON.parse
+    file = File.open('27701-forecast.json') 
+    JSON.load(file)
+  end
+end
+
+class Sun
+  private def get_response
+    file = File.open('27701-sun.json')
     JSON.load(file)
   end
 end
@@ -34,17 +41,16 @@ class AstronomyTest < Minitest::Test
     assert_equal "89%", Condition.new("27701").humidity
   end
 
-  def test_one_day_of_ten_day_forecast
-    assert_equal "Overcast with rain showers at times. Thunder possible. High near 75F. Winds NE at 5 to 10 mph. Chance of rain 40%.", Forecast.new("27701").forecast_text(0)
-  end
-
   def test_ten_day_forecast_text
-    assert_equal "Overcast with rain showers at times. Thunder possible. High near 75F. Winds NE at 5 to 10 mph. Chance of rain 40%.", Forecast.new("27701").forecast_text_all[0]
-    assert_equal "Cloudy skies early, followed by partial clearing. High near 80F. Winds NE at 5 to 10 mph.", Forecast.new("27701").forecast_text_all[9]
+    assert /\bOvercast with rain showers at times.\b/, Forecast.new("27701").forecast_text_all
   end
 
-  def test_sunrise_sunset_time
-    assert_equal "6:07 PM PDT on September 21, 2015", Sun.new("94101").sunrise_sunset_time(1)
+  def test_sunrise_time
+    assert_equal "7:02 AM", Sun.new("27701").sunrise_time
+  end
+
+  def test_sunset_time
+    assert_equal "19:14 PM", Sun.new("27701").sunset_time
   end
 
 
