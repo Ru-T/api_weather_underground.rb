@@ -3,6 +3,7 @@ require 'minitest/pride'
 require './condition.rb'
 require './ten_day_forecast.rb'
 require './sun.rb'
+require './alert.rb'
 require 'json'
 
 class Condition
