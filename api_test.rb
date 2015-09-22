@@ -69,7 +69,7 @@ class AstronomyTest < Minitest::Test
   end
 
   def test_current_alerts
-    assert_equal "SPE", Alert.new("77587").current_alert
+    assert_equal ["SPE"], Alert.new("77587").current_alert
   end
 
   def test_current_hurricane

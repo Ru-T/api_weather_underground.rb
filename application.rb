@@ -17,7 +17,9 @@ puts ""
 
 api2 = Forecast.new(zip_code)
 puts "The weather over the next ten days is:"
-puts "#{api2.forecast_text_all}"
+api2.forecast_text_all.each do |k, v|
+  puts "#{k}: #{v}"
+end  
 puts ""
 
 api3 = Sun.new(zip_code)
