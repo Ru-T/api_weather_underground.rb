@@ -35,6 +35,13 @@ class Alert
   end
 end
 
+class Hurricane
+  private def get_response
+  file = File.open('hurricane.json')
+  JSON.load(file)
+  end
+end
+
 class AstronomyTest < Minitest::Test
 
   def test_current_weather
