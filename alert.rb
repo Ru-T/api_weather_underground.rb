@@ -10,14 +10,18 @@ class Alert
 
   private def get_response
     key = ENV['WUNDERGROUND_KEY']
-    "http://api.wunderground.com/api/#{key}/alerts/q/#{@zip_code}.json"
+    HTTParty.get("http://api.wunderground.com/api/#{key}/alerts/q/#{@zip_code}.json")
   end
 
   def current_alert
-    if @response["alerts"] != []
-      @response["alerts"][0]["type"]
+    if @response["alerts"] == []
+      "There are no weather alerts in your area."
     else
-      puts "There are no weather alerts in your area."
+      all_alerts = ""
+      @response["alerts"].each do |alert|
+        all_alerts << alert["type"] 
+      end
+      all_alerts
     end
   end
 

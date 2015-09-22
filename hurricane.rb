@@ -5,7 +5,7 @@ class Hurricane
 
   private def get_response
     key = ENV['WUNDERGROUND_KEY']
-    "http://api.wunderground.com/api/#{key}/currenthurricane/view.json"
+    HTTParty.get("http://api.wunderground.com/api/#{key}/currenthurricane/view.json")
   end
 
   def initialize
@@ -15,7 +15,7 @@ class Hurricane
   def current_hurricane
     x = ""
     @response["currenthurricane"].each do |hurricane|
-      x << hurricane["stormInfo"]["stormName_Nice"]
+      x << hurricane["stormInfo"]["stormName_Nice"] + "\n"
     end
     x
   end

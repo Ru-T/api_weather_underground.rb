@@ -73,7 +73,7 @@ class AstronomyTest < Minitest::Test
   end
 
   def test_current_hurricane
-    assert_equal "Ida", Hurricane.new.current_hurricane
+    assert Hurricane.new.current_hurricane.include?("Tropical Storm Ida")
   end
 
 end

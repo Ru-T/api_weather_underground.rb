@@ -28,6 +28,7 @@ puts ""
 api4 = Alert.new(zip_code)
 puts "The current weather alert is:"
 puts api4.current_alert
+puts ""
 
 api5 = Hurricane.new
 puts "The current hurricane is:"
