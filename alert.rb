@@ -17,11 +17,7 @@ class Alert
     if @response["alerts"] == []
       "There are no weather alerts in your area."
     else
-      all_alerts = ""
-      @response["alerts"].each do |alert|
-        all_alerts << alert["type"] 
-      end
-      all_alerts
+      @response["alerts"].map {|alert| alert["type"]}
     end
   end
 

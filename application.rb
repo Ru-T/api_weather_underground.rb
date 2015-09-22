@@ -26,10 +26,10 @@ puts "The sunset is at #{api3.sunset_time}."
 puts ""
 
 api4 = Alert.new(zip_code)
-puts "The current weather alert is:"
+puts "Current status of weather alerts:"
 puts api4.current_alert
 puts ""
 
 api5 = Hurricane.new
-puts "The current hurricane is:"
+puts "Currently active hurricanes:"
 puts api5.current_hurricane
