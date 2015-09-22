@@ -57,7 +57,7 @@ class AstronomyTest < Minitest::Test
   end
 
   def test_ten_day_forecast_text
-    assert /\bOvercast with rain showers at times.\b/, Forecast.new("27701").forecast_text_all
+    assert Forecast.new("27701").forecast_text_all.include?(/\bOvercast with rain showers at times.\b/)
   end
 
   def test_sunrise_time

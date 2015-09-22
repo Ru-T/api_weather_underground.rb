@@ -8,7 +8,10 @@ class Hurricane
   end
 
   def current_hurricane
-    @response["currenthurricane"][0]["stormName"]
+    x = ""
+    @response["currenthurricane"].each do |hurricane|
+      x << hurricane["stormInfo"]["stormName_Nice"]
+    end
   end
 
   private def get_response

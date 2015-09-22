@@ -1,6 +1,6 @@
-## Description
+# Description
 
-# This program pulls from the API of www.weatherunderground.com. It allows a user to enter a zip code and learn the following information:
+## This program pulls from the API of www.weatherunderground.com. It allows a user to enter a zip code and learn the following information:
 
 - Current Weather Conditions
 - Ten Day Forecast
