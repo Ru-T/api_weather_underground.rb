@@ -8,6 +8,11 @@ class Condition
     @response = get_response
   end
 
+  private def get_response
+    key = ENV['WUNDERGROUND_KEY']
+    HTTParty.get("http://api.wunderground.com/api/#{key}/conditions/q/#{@zip_code}.json")
+  end
+
   def weather
     @response["current_observation"]["weather"]
   end
@@ -18,11 +23,6 @@ class Condition
 
   def humidity
     @response["current_observation"]["relative_humidity"]
-  end
-
-  private def get_response
-    key = ENV['WUNDERGROUND_KEY']
-    HTTParty.get("http://api.wunderground.com/api/#{key}/conditions/q/#{@zip_code}.json")
   end
 
 end

@@ -8,6 +8,11 @@ class Forecast
     @response = get_response
   end
 
+  private def get_response
+    key = ENV['WUNDERGROUND_KEY']
+    HTTParty.get("http://api.wunderground.com/api/#{key}/forecast10day/q/#{@zip_code}.json")
+  end
+
   def forecast_day(period)
     @response["forecast"]["txt_forecast"]["forecastday"][period]["title"]
   end
@@ -20,11 +25,6 @@ class Forecast
     forecast = {}
     (0..18).step(2) {|period| forecast[forecast_day(period)] = forecast_text(period)}
     forecast
-  end
-
-  private def get_response
-    key = ENV['WUNDERGROUND_KEY']
-    HTTParty.get("http://api.wunderground.com/api/#{key}/forecast10day/q/#{@zip_code}.json")
   end
 
 end

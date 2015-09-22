@@ -3,6 +3,11 @@ require 'byebug'
 
 class Hurricane
 
+  private def get_response
+    key = ENV['WUNDERGROUND_KEY']
+    "http://api.wunderground.com/api/#{key}/currenthurricane/view.json"
+  end
+
   def initialize
     @response = get_response
   end
@@ -12,11 +17,7 @@ class Hurricane
     @response["currenthurricane"].each do |hurricane|
       x << hurricane["stormInfo"]["stormName_Nice"]
     end
-  end
-
-  private def get_response
-    key = ENV['WUNDERGROUND_KEY']
-    "http://api.wunderground.com/api/#{key}/currenthurricane/view.json"
+    x
   end
 
 end
