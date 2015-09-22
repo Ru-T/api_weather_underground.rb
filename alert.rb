@@ -10,7 +10,6 @@ class Alert
 
   def current_alert
     if @response["alerts"] != []
-      byebug
       @response["alerts"][0]["type"]
     else
       puts "There are no alerts in your area."

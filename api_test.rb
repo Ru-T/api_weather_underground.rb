@@ -4,6 +4,7 @@ require './condition.rb'
 require './ten_day_forecast.rb'
 require './sun.rb'
 require './alert.rb'
+require './hurricane.rb'
 require 'json'
 
 class Condition
@@ -62,6 +63,10 @@ class AstronomyTest < Minitest::Test
 
   def test_current_alerts
     assert_equal "SPE", Alert.new("77587").current_alert
+  end
+
+  def test_current_hurricane
+    assert_equal "Ida", Hurricane.new.current_hurricane
   end
 
 end

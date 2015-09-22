@@ -4,6 +4,7 @@ require './condition.rb'
 require './ten_day_forecast.rb'
 require './sun.rb'
 require './alert.rb'
+require './hurricane.rb'
 
 puts "Enter a zip code:"
 zip_code = gets.chomp
@@ -26,3 +27,6 @@ puts ""
 
 api4 = Alert.new(zip_code)
 puts "The current weather alert is #{api4.current_alert}."
+
+api5 = Hurricane.new
+puts "The current hurricane is #{api5. current_hurricane}."
